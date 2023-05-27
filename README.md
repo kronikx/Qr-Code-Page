@@ -19,8 +19,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/qrcode-solution-ylFD-7aH_A)
-- Live Site URL: [Add live site URL here](https://kronikx.github.io/Qr-Code-Page/)
+- Solution URL: [Frontend Mentor Solution](https://www.frontendmentor.io/solutions/qrcode-solution-ylFD-7aH_A)
+- Live Site URL: [Github Pages](https://kronikx.github.io/Qr-Code-Page/)
 
 ## My process
 

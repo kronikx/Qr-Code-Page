@@ -1,0 +1,83 @@
+@import url(https://fonts.google.com/specimen/Outfit);
+
+:root {
+    --white: hsl(0, 0%, 100%);
+    --light-grey: hsl(212, 45%, 89%);
+    --grayish-blue: hsl(220, 15%, 55%);
+    --dark-blue: hsl(218, 44%, 22%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 15px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    background-color: var(--light-grey);
+}
+
+.attribution { 
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+#main-object {
+    /* Centering the Div */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    /* adding color */
+    background-color: white;
+
+    /* Sizing */
+    height: 470px;
+    width: 300px;
+
+    /* Rounding edges */
+    border: 1px solid transparent;
+    border-radius: 15px;
+    -moz-border-radius: 15px;
+}
+
+#main-object img {
+    /* Sizing */
+    height: 260px;
+    width: 270px;
+
+    /* Centering */
+    position: absolute;
+    top: 3%;
+    left: 5%;
+
+    /* rounding edges */
+    border: 1px solid transparent;
+    border-radius: 15px;
+    -moz-border-radius: 15px;
+}
+
+#main-object h1 {
+    position: absolute;
+    text-align: center;
+
+    font-size: 20px;
+    top: 65%;
+    left: 10%;
+}
+
+#main-object p {
+    position: absolute;
+    text-align: center;
+
+    font-size: 15px;
+    top: 80%;
+    left: 10%;
+}
